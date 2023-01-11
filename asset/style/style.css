@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========  fonts ======== */
+
+@font-face {
+    font-family: karla;
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+
+/* ========  fonts ======== */
+
+/* ========  body ======== */
+
+body {
+    font-family: karla;
+    overflow-x: hidden;
+}
+
+body a:hover {
+    opacity: 50%;
+}
+
+/* ========  body ======== */
+
+/* ========  nav ======== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 2em;
+}
+
+header .nav a {
+    text-decoration: none;
+    color: #323A45;
+    margin: 0 1em;
+}
+
+.logo {
+    font-family: karla;
+    font-style:inherit;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+
+/* ===  productCollection === */
+
+.firstProduct {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0 3em;
+
+}
+
+.firstProduct img {
+    width: 100%;
+}
+
+.firstProduct img:hover {
+    opacity: 60%;
+    transition-duration: 500ms;
+
+}
+
+.otherProduct {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0 3em;
+
+}
+
+.products {
+    width: 32%;
+}
+
+.products img {
+    width: 100%;
+}
+
+.products img:hover {
+    opacity: 60%;
+    transition-duration: 500ms;
+}
+
+.productInfo {
+    width: 100%;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+}
+
+.productInfo span {
+    color: #848484;
+
+}
+
+/* ===  productCollection === */
+
+/* ===  Footer === */
+
+.footer {
+    padding: 2em;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerContainer div {
+    width: 25%;
+    line-height: 2em;
+}
+
+
+.footerContainer a {
+    text-decoration: none;
+    color: #323A45;
+}
+
+.footerContainer .titleF {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.social a {
+    width: 60%;
+}
+
+.copyright {
+    padding-top: 2em ;
+}
+
+
+
+
+
+
+/* ===  Footer === */
+
+/* ===  media === */
+
+@media  screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .footerContainer div {
+        width: 100%;
+        line-height: 2em;
+        padding: 0 1.2em;
+    }
+
+    .footerContainer .titleF {
+        font-size: 1.2em;
+
+    }
+    
+}
+/* ===  media === */
